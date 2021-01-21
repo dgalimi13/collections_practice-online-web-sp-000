@@ -37,10 +37,17 @@ end
 def add_s(array)
  array.each_with_index.collect do |val,index| 
  if index != 1 
+<<<<<<< HEAD
   "#{val}s"
  elsif
    index == 1 
    "#{val}"
+=======
+   puts "#{val}s"
+ elsif
+   index == 1 
+   puts "#{val}"
+>>>>>>> 28c0c08382a77c63a5efcc2665d27660565a8ca7
 end
 end
 end
